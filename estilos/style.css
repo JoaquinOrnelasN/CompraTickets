@@ -13,6 +13,31 @@ body{
 }
 
 /* ---- Sección: INDEX ---- */
+.nav{
+	background-color: #373868;
+	height: 69px;
+	box-shadow: -1px 7px 6px 1px rgba(0,0,0,0.64);
+   -webkit-box-shadow: -1px 7px 6px 1px rgba(0,0,0,0.64);
+   -moz-box-shadow: -1px 7px 6px 1px rgba(0,0,0,0.64);
+}
+
+.nav ul{	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 27px;
+}
+
+.nav ul li{
+	font-size: 19px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;	
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #f5c030;	
+}
 
 .contenedor{
     margin: 0 auto;
@@ -188,6 +213,17 @@ body{
 }
 
 /* ---- Sección: BOLETOS ---- */
+.stage p{
+	color: #171922;
+	font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.container h2{
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+}
+
 .boleto__concierto {
     margin-top: 70px;
     margin-bottom: 40px;
